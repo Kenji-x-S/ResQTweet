@@ -123,7 +123,7 @@ export default function Dashboard() {
           <div className="flex items-center gap-2">
             <div className={`w-2 h-2 rounded-full ${status === 'ONLINE' ? 'bg-green-500 shadow-[0_0_10px_#22c55e]' : status === 'ERROR' ? 'bg-red-500' : 'bg-yellow-500 animate-pulse'}`}></div>
             <h1 className="text-xl font-bold tracking-tight text-white">
-              Sentinel<span className="text-blue-500">AI</span>
+              ResQ<span className="text-blue-500">Tweet</span>
             </h1>
           </div>
           <div className="text-xs font-mono text-slate-500 uppercase">
