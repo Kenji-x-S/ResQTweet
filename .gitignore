@@ -1,0 +1,12 @@
+# Ignore the backend virtual environment
+venv/
+__pycache__/
+
+# Ignore heavy model files
+backend/model/
+backend/model_backup/
+*.safetensors
+*.bin
+
+# Ignore system files
+.DS_Store
