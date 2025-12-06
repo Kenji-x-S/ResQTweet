@@ -11,6 +11,10 @@ COPY requirements.txt .
 # We use --no-cache-dir to keep the image small
 RUN pip install --no-cache-dir -r requirements.txt
 
+# --- NEW: Download the spaCy model ---
+# This is required for the keyword rescue logic in main.py
+RUN python -m spacy download en_core_web_sm
+
 # Copy the rest of the application code
 COPY . .
 
